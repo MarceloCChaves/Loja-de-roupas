@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #deb887;
+    margin: 0;
+}
+header{
+    background-color: saddlebrown;
+    border-top: 0.5px solid transparent;
+}
+h1{
+    color: brown;
+    text-shadow: 1px 1px 0px #111111;
+    text-align: center;
+    background-color: white;
+}
+.banner nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.banner nav a{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+.banner nav a:hover{
+    background: #ccc;
+}
+.banner nav a:active{
+    background-color: #111111;
+}
+.localizacao{
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 50px;
+    padding-right: 20px;
+    margin-left: 60px;
+    padding: 30px;
+}
+.mapa{
+    margin-left: 30px;
+}
+.rodape{
+    text-align: center;
+    background: #696969;
+    padding: 17px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 3px 3px 2px #111111;
+}

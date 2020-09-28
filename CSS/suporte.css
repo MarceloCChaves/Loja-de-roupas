@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #deb887;
+    margin: 0;
+}
+header{
+    background-color: saddlebrown;
+    border-top: 0.5px solid transparent;
+}
+h1{
+    color:brown;
+    text-shadow: 0px 0px 1px #111111;
+    text-align: left;
+    background-color: white;
+}
+h2{
+    color: brown;
+}
+.banner nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.banner nav a{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+.banner nav a:hover{
+    background: #ccc;
+}
+.banner nav a:active{
+    background-color: #111111;
+}
+.vestuario{
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nome{
+    width: 120px;
+}
+button::before{
+    color: white;
+}
+button{
+    background-color: #d5132a;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+button a:visited{
+    color: white;
+}

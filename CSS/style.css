@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #deb887;
+    margin: 0;
+}
+
+header{
+    background-color: saddlebrown;
+    border-top: 0.5px solid transparent;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 1px;
+    border-bottom-color: #A9A9A9;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #111111;
+    font-family: 'lato',light;
+}
+.banner nav a:hover{
+    background: #ccc;
+}
+.banner nav a:active{
+    background-color: #111111;
+}
+.slogan{
+    color: white;
+    text-align: center;
+}
+.slogan h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.slogan-banner p{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 30px;
+    text-shadow: 3px 3px 2px #111111;
+    margin: 0 580px;
+}
+.banner{
+    display: grid;
+    background-image: url(../Imagens/Loja.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 0.5px solid transparent;
+}
+.banner nav ul{
+    margin-top: 30px;
+    text-align: right;
+    margin-left: 90px;
+    padding: 10px;
+}
+.banner nav li{
+    display: flex;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+.banner nav a{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.banner img{
+    margin-bottom: 70px;
+}
+.card{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: 90px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 8px;
+}
+.card button{
+    background-color: #A9A9A9;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.card button a{
+    text-decoration: none;
+}
+.card button a:visited{
+    color: white;
+}
+.card img{
+    width: 100%;
+}
+.card button:hover{
+    background-color: #ccc;
+}
+.card-7{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: 90px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.card-7 button{
+    background-color: #A9A9A9;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.card-7 button a{
+    text-decoration: none;
+}
+.card-7 button a:visited{
+    color: white;
+}
+.card-7 img{
+    width: 100%;
+}
+.card-7 button:hover{
+    background-color: #ccc;
+}
+.card-7{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: 90px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.card-7 button{
+    background-color: #A9A9A9;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.vestuario{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+.infantil{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.card-10{
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: brown;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.card-10 button{
+    background-color: #A9A9A9;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.card-10 button a{
+    text-decoration: none;
+}
+.card-10 button a:visited{
+    color: white;
+}
+.card-10 img{
+    width: 100%;
+}
+.card-10 button:hover{
+    background-color: #ccc;
+}
+.rodape{
+    text-align: center;
+    background: #696969;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 3px 3px 2px #111111;
+
+}
